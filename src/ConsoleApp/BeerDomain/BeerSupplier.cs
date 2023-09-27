@@ -1,27 +1,34 @@
 ﻿namespace R4ffi.DotNet8CSharp12.BeerDomain;
 
-internal class BeerSupplier
+internal abstract class BeerSupplier : IBeerSupplier
 {
-    public IEnumerable<Beer> GetDifferentBeers(int numberOfBeers)
+    internal abstract IOrderedEnumerable<Beer> AvailableProducts { get; }
+
+    public virtual IEnumerable<Beer> GetDifferentBeers(int numberOfBeers)
     {
-        var beers = new List<Beer>(numberOfBeers);
+        var numberOfAvailableProducts = AvailableProducts.Count();
 
-        for (var index = 0; index < numberOfBeers; index += 6)
+        for (var index = 0; index < numberOfBeers; index++)
         {
-            beers.Add(new Beer("Felsenau Bärner Müntschi", BeerType.Lager, 4.8));
-            beers.Add(new Beer("Moritz Original", BeerType.Lager, 5.4));
-            beers.Add(new Beer("Degen Kobra", BeerType.IndiaPaleAle, 5.2));
-            beers.Add(new Beer("Brooklyn Brewery East IPA", BeerType.IndiaPaleAle, 6.8));
-            beers.Add(new Beer("Paulaner Weissbier Kristallklar", BeerType.WheatBeer, 5.2));
-            beers.Add(new Beer("Erdinger Weissbier", BeerType.WheatBeer, 5.3));
+            var elementIndex = index % numberOfAvailableProducts;
+            yield return AvailableProducts.ElementAt(elementIndex) with { };
         }
-
-        return beers.Take(numberOfBeers);
     }
 
-    public IEnumerable<Beer> GetBaernerMuentschis(int numberOfBeers)
+    public IEnumerable<Beer> GetSpecificBeers(string name, int numberOfBeers)
     {
-        return Enumerable.Range(0, numberOfBeers)
-            .Select(_ => new Beer("Felsenau Bärner Müntschi", BeerType.Lager, 4.8)).ToList();
+        var foundBeer = AvailableProducts.FirstOrDefault(p => p.Name == name);
+
+        return foundBeer is null
+            ? Enumerable.Empty<Beer>()
+            : GetMultipleInstancesOfTheSameBeer(foundBeer, numberOfBeers);
+    }
+
+    protected IEnumerable<Beer> GetMultipleInstancesOfTheSameBeer(Beer beer, int numberOfBeers)
+    {
+        for (var index = 0; index < numberOfBeers; index++)
+        {
+            yield return beer with { };
+        }
     }
 }

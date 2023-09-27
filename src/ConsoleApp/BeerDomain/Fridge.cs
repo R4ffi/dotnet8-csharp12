@@ -5,13 +5,9 @@ internal class Fridge
     private readonly List<Beer> beers = new();
     private readonly Random random = new();
 
-    public int TotalCapacity { get; init; }
-
-    public int FreeCapacity => TotalCapacity - beers.Count;
-
     public void Fill(IEnumerable<Beer> beersToAdd)
     {
-        beers.AddRange(beersToAdd.Take(FreeCapacity));
+        beers.AddRange(beersToAdd);
 
         Console.WriteLine($"Added {beersToAdd.Count()} beers to the fridge.");
     }

@@ -37,15 +37,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        PersonalInformation me = new PersonalInformation();
-
-        me.LastName = "Nussbaumer";
-        me.FirstName = "Raffael";
-        me.Role = "Software Developer / Team Lead";
-        me.YearsOfExperience = DateTime.Now.Year - 2008;
-        me.Employer = "isolutions Switzerland";
-        me.Nationality = "Swiss";
-        me.Hobbies = new string[] { "Skiing", "Hiking" };
+        PersonalInformation me = new()
+        {
+            LastName = "Nussbaumer";
+            FirstName = "Raffael";
+            Role = "Software Developer / Team Lead";
+            YearsOfExperience = DateTime.Now.Year - 2008;
+            Employer = "isolutions Switzerland";
+            Nationality = "Swiss";
+            Hobbies = new string[] { "Skiing", "Hiking" }
+        };
     }
 }
 ```
@@ -134,4 +135,17 @@ Star Wars: The Rise of Skywalker
 Barbie / Oppenheimer
 
 </details>
+</details>
+
+<details>
+<summary>Recap</summary>
+
+## Primary constructors
+
+## Audit for security vulnerabilities
+
+In .NET 8, you can enable NuGet security auditing for "dotnet restore." It reports package vulnerabilities, including severity and links to advisories. Activate it by setting "<NuGetAudit>" to "true" in your project file, and ensure NuGet.org is a package source. Customize auditing with "<NuGetAuditLevel>."
+
+https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-restore#audit-for-security-vulnerabilities
+
 </details>
