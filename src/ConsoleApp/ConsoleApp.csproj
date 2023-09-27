@@ -19,7 +19,11 @@
 	<ItemGroup>
 		<Using Include="Microsoft.Extensions.DependencyInjection" />
 		<Using Include="R4ffi.DotNet8CSharp12" />
-		<Using Include="R4ffi.DotNet8CSharp12.BeerDomain" />
+		<Using Include="R4ffi.DotNet8CSharp12.Appliances" />
+		<Using Include="R4ffi.DotNet8CSharp12.Beverages" />
+		<Using Include="R4ffi.DotNet8CSharp12.CorporateServices" />
+		<Using Include="R4ffi.DotNet8CSharp12.Supplies" />
+		<Using Include="System.Text.Json" />
 	</ItemGroup>
 
 </Project>

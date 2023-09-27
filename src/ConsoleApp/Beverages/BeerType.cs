@@ -1,4 +1,4 @@
-﻿namespace R4ffi.DotNet8CSharp12.BeerDomain;
+﻿namespace R4ffi.DotNet8CSharp12.Beverages;
 
 internal enum BeerType
 {

@@ -1,23 +1,21 @@
-﻿namespace R4ffi.DotNet8CSharp12.BeerDomain;
+﻿namespace R4ffi.DotNet8CSharp12.Supplies;
 
 internal abstract class BeerSupplier : IBeerSupplier
 {
-    internal abstract IOrderedEnumerable<Beer> AvailableProducts { get; }
+    internal abstract ReadOnlySpan<Beer> AvailableProducts { get; }
 
     public virtual IEnumerable<Beer> GetDifferentBeers(int numberOfBeers)
     {
-        var numberOfAvailableProducts = AvailableProducts.Count();
-
         for (var index = 0; index < numberOfBeers; index++)
         {
-            var elementIndex = index % numberOfAvailableProducts;
-            yield return AvailableProducts.ElementAt(elementIndex) with { };
+            var elementIndex = index % AvailableProducts.Length;
+            yield return AvailableProducts[elementIndex];
         }
     }
 
     public IEnumerable<Beer> GetSpecificBeers(string name, int numberOfBeers)
     {
-        var foundBeer = AvailableProducts.FirstOrDefault(p => p.Name == name);
+        var foundBeer = AvailableProducts.ToArray().FirstOrDefault(p => p.Name == name);
 
         return foundBeer is null
             ? Enumerable.Empty<Beer>()
@@ -28,7 +26,7 @@ internal abstract class BeerSupplier : IBeerSupplier
     {
         for (var index = 0; index < numberOfBeers; index++)
         {
-            yield return beer with { };
+            yield return beer;
         }
     }
 }

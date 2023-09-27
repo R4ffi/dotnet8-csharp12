@@ -142,9 +142,25 @@ Barbie / Oppenheimer
 
 ## Primary constructors
 
-## Audit for security vulnerabilities
+https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-12#primary-constructors
 
-In .NET 8, you can enable NuGet security auditing for "dotnet restore." It reports package vulnerabilities, including severity and links to advisories. Activate it by setting "<NuGetAudit>" to "true" in your project file, and ensure NuGet.org is a package source. Customize auditing with "<NuGetAuditLevel>."
+## Collection expressions
+
+https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-12#collection-expressions
+
+## Keyed Dependency Injection
+
+https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#keyed-di-services
+
+## Random
+
+https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#methods-for-working-with-randomness
+
+## Interface hierarchies
+
+https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#interface-hierarchies
+
+## Audit for security vulnerabilities
 
 https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-restore#audit-for-security-vulnerabilities
 
