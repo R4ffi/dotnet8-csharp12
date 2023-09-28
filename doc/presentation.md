@@ -81,60 +81,67 @@ class Program
 <details>
 <summary>2006</summary>
 
-.NET Framework 3.0 (2006):
-
-- WPF, WCF
-
-Casino Royale
+| .NET World                                | What else?                                                                                                                              |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| .NET Framework 3.0 introduces WPF and WCF | ![Casino Royale poster](https://upload.wikimedia.org/wikipedia/en/1/15/Casino_Royale_2_-_UK_cinema_poster.jpg)                          |
+|                                           | Source: http://www.dailymail.co.uk/home/moslive/article-2085176/James-Bond-movies-Moonraker-Casino-Royale--choose-favourite-poster.html |
+|                                           | Copyright owner: Sony Pictures Releasing                                                                                                |
 
 </details>
 
 <details>
 <summary>2007</summary>
 
-.NET Framework 3.5 (2007):
-
-LINQ, EntityFramework, ASP.NET MVC
-
-Transformers
+| .NET World                                                       | What else?                                                                                |
+| ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| .NET Framework 3.5 introduces LINQ, EntityFramework, ASP.NET MVC | ![Transformers poster](https://upload.wikimedia.org/wikipedia/en/6/66/Transformers07.jpg) |
+|                                                                  | Source: http://www.impawards.com/2007/transformers_ver13.html                             |
+|                                                                  | Copyright owner: Paramount Pictures                                                       |
 
 </details>
 
 <details>
 <summary>2010</summary>
 
-.NET Framework 4.0 (2010)
-
-- Parallel LINQ, Task Parallel Library
-
-Inception
+| .NET World                                                                | What else?                                                                                                     |
+| ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| .NET Framework 4.0 introduces Parallel LINQ and the Task Parallel Library | ![Inception poster](https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg) |
+|                                                                           | Source: http://impawards.com/2010/inception_ver3.html                                                          |
+|                                                                           | Copyright owner: Warner Bros. Pictures                                                                         |
+|                                                                           |
 
 </details>
 
 <details>
 <summary>2016</summary>
 
-.NET Core (2016)
-
-- Async
-
-Deadpool
+| .NET World                                       | What else?                                                                                        |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
+| Alongside the .NET Framework, .NET Core is born. | ![Deadpool poster](https://upload.wikimedia.org/wikipedia/en/2/23/Deadpool_%282016_poster%29.png) |
+|                                                  | Source: https://www.imdb.com/title/tt1431045/                                                     |
+|                                                  | Copyright owner: Marvel Characters, Inc                                                           |
 
 </details>
 
 <details>
 <summary>2020</summary>
 
-- .NET 5 unified the previously separate .NET Core and .NET Framework into a single platform
-
-Star Wars: The Rise of Skywalker
+| .NET World                                                                                  | What else?                                                                             |
+| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| .NET 5 unified the previously separate .NET Core and .NET Framework into a single platform. | ![Tenet poster](https://upload.wikimedia.org/wikipedia/en/1/14/Tenet_movie_poster.jpg) |
+|                                                                                             | Source: http://www.impawards.com/2020/tenet_ver3.html                                  |
+|                                                                                             | Copyright owner: Warner Bros. Pictures                                                 |
 
 </details>
 
 <details>
 <summary>Today</summary>
 
-Barbie / Oppenheimer
+| .NET World                                                    | What else?                                                                              |
+| ------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| .NET 8 and C# 12 are released. Let's find out what it brings! | ![Barbie poster](https://upload.wikimedia.org/wikipedia/en/0/0b/Barbie_2023_poster.jpg) |
+|                                                               | Source: https://www.carolinacinemas.com/lumina/movie/barbie                             |
+|                                                               | Copyright owner: Warner Bros. Pictures                                                  |
 
 </details>
 </details>
