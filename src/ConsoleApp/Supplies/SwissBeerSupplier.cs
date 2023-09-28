@@ -10,12 +10,5 @@ internal class SwissBeerSupplier : BeerSupplier, ISwissBeerSupplier
         new ("Calvinus Blanche", BeerType.WheatBeer, 5.2)
     };
 
-    public override IEnumerable<Beer> GetDifferentBeers(int numberOfBeers)
-    {
-        for (var index = 0; index < numberOfBeers; index++)
-        {
-            var randomIndex = Random.Shared.Next(0, AvailableProducts.Length);
-            yield return AvailableProducts[randomIndex];
-        }
-    }
+    public override IEnumerable<Beer> GetDifferentBeers(int numberOfBeers) => Random.Shared.GetItems(AvailableProducts, numberOfBeers);
 }

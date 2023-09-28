@@ -17,8 +17,6 @@ internal class SpanishBeerSupplier : BeerSupplier, ISpanishBeerSupplier
         var normalBeers = allBeers.Where(_ => _.AlcoholByVolume > 4.5 && _.AlcoholByVolume < 6);
         var strongBeers = allBeers.Where(_ => _.AlcoholByVolume > 6);
 
-        return lightBeers
-             .Concat(normalBeers)
-             .Concat(strongBeers);
+        return [.. lightBeers, .. normalBeers, .. strongBeers];
     }
 }
