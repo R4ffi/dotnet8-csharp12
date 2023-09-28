@@ -59,20 +59,22 @@ class Program
 <details>
 <summary>2002</summary>
 
-- The first final versions of .NET and C# see the light of day.
-
-The Lord of the Rings: The Two Towers
+| .NET World                                                    | What else?                                                                                                                                  |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| The first final versions of .NET and C# see the light of day. | ![The Lord of the Rings: The Two Towers Poster](https://upload.wikimedia.org/wikipedia/en/f/fc/The_Lord_of_the_Rings%2C_T2T_%282002%29.jpg) |
+|                                                               | Source: https://www.cinematerial.com/movies/the-lord-of-the-rings-the-two-towers-i167261/info                                               |
+|                                                               | Copyright owner: New Line Cinema                                                                                                            |
 
 </details>
 
 <details>
 <summary>2005</summary>
 
-.NET Framework 2.0 (2005):
-
-- ASP.NET, WinForms, ADO.NET
-
-Star Wars Ep. III: Revenge of the Sith
+| .NET World                                                   | What else?                                                                                                                                               |
+| ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| .NET Framework 2.0 introduces ASP.NET, WinForms, and ADO.NET | ![Star Wars Episode III Revenge of the Sith poster](https://upload.wikimedia.org/wikipedia/en/9/93/Star_Wars_Episode_III_Revenge_of_the_Sith_poster.jpg) |
+|                                                              | Source: http://www.impawards.com/2005/star_wars_episode_three_ver2.html                                                                                  |
+|                                                              | Copyright owner: Lucasfilm Ltd.                                                                                                                          |
 
 </details>
 
@@ -144,13 +146,13 @@ Barbie / Oppenheimer
 
 https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-12#primary-constructors
 
-## Collection expressions
-
-https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-12#collection-expressions
-
 ## Keyed Dependency Injection
 
 https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#keyed-di-services
+
+## Collection expressions
+
+https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-12#collection-expressions
 
 ## Random
 
