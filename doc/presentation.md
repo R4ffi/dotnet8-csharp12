@@ -6,18 +6,6 @@ September 28, 2023
 https://github.com/R4ffi/dotnet8-csharp12
 
 <details>
-<summary>Agenda</summary>
-
-0. Intro
-1. A Brief History of .NET and C#
-2. The demo application
-3. New features
-4. Breaking Changes
-5. Recap
-
-</details>
-
-<details>
 <summary>Intro</summary>
 
 ```csharp
