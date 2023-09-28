@@ -10,9 +10,10 @@ https://github.com/R4ffi/dotnet8-csharp12
 
 0. Intro
 1. A Brief History of .NET and C#
-2. The demo application (or how to get a beer)
+2. The demo application
 3. New features
-4. Recap
+4. Breaking Changes
+5. Recap
 
 </details>
 
@@ -147,7 +148,18 @@ class Program
 </details>
 
 <details>
+<summary>Breaking Changes</summary>
+
+https://learn.microsoft.com/en-us/dotnet/core/compatibility/8.0
+
+</details>
+
+<details>
 <summary>Recap</summary>
+
+## Audit for security vulnerabilities
+
+https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-restore#audit-for-security-vulnerabilities
 
 ## Primary constructors
 
@@ -168,9 +180,5 @@ https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#methods-for-wor
 ## Interface hierarchies
 
 https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#interface-hierarchies
-
-## Audit for security vulnerabilities
-
-https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-restore#audit-for-security-vulnerabilities
 
 </details>
