@@ -136,6 +136,14 @@ class Program
 </details>
 
 <details>
+<summary>The Demo Application</summary>
+</details>
+
+<details>
+<summary>New Features</summary>
+</details>
+
+<details>
 <summary>Breaking Changes</summary>
 
 https://learn.microsoft.com/en-us/dotnet/core/compatibility/8.0
